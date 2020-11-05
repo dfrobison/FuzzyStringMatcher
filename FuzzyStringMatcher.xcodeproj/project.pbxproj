@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D221B7E25548286004CD8D6 /* english3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D221B7D25548286004CD8D6 /* english3.txt */; };
+		3DCDB31C252D00D50050932D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCDB31B252D00D50050932D /* AppDelegate.swift */; };
+		3DCDB31E252D00D50050932D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCDB31D252D00D50050932D /* ContentView.swift */; };
+		3DCDB320252D00D80050932D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCDB31F252D00D80050932D /* Assets.xcassets */; };
+		3DCDB323252D00D80050932D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCDB322252D00D80050932D /* Preview Assets.xcassets */; };
+		3DCDB326252D00D80050932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCDB324252D00D80050932D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D221B7D25548286004CD8D6 /* english3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english3.txt; sourceTree = "<group>"; };
+		3DCDB318252D00D50050932D /* FuzzyStringMatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuzzyStringMatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCDB31B252D00D50050932D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DCDB31D252D00D50050932D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DCDB31F252D00D80050932D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DCDB322252D00D80050932D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DCDB325252D00D80050932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DCDB327252D00D80050932D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCDB328252D00D80050932D /* FuzzyStringMatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FuzzyStringMatcher.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DCDB315252D00D50050932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D221B80255482D0004CD8D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D221B7D25548286004CD8D6 /* english3.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3DCDB30F252D00D50050932D = {
+			isa = PBXGroup;
+			children = (
+				3DCDB31A252D00D50050932D /* FuzzyStringMatcher */,
+				3DCDB319252D00D50050932D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DCDB319252D00D50050932D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DCDB318252D00D50050932D /* FuzzyStringMatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCDB31A252D00D50050932D /* FuzzyStringMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				3D221B80255482D0004CD8D6 /* Resources */,
+				3DCDB31B252D00D50050932D /* AppDelegate.swift */,
+				3DCDB31D252D00D50050932D /* ContentView.swift */,
+				3DCDB31F252D00D80050932D /* Assets.xcassets */,
+				3DCDB324252D00D80050932D /* Main.storyboard */,
+				3DCDB327252D00D80050932D /* Info.plist */,
+				3DCDB328252D00D80050932D /* FuzzyStringMatcher.entitlements */,
+				3DCDB321252D00D80050932D /* Preview Content */,
+			);
+			path = FuzzyStringMatcher;
+			sourceTree = "<group>";
+		};
+		3DCDB321252D00D80050932D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DCDB322252D00D80050932D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCDB317252D00D50050932D /* FuzzyStringMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DCDB32B252D00D80050932D /* Build configuration list for PBXNativeTarget "FuzzyStringMatcher" */;
+			buildPhases = (
+				3DCDB314252D00D50050932D /* Sources */,
+				3DCDB315252D00D50050932D /* Frameworks */,
+				3DCDB316252D00D50050932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuzzyStringMatcher;
+			productName = FuzzyStringMatcher;
+			productReference = 3DCDB318252D00D50050932D /* FuzzyStringMatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DCDB310252D00D50050932D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3DCDB317252D00D50050932D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3DCDB313252D00D50050932D /* Build configuration list for PBXProject "FuzzyStringMatcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DCDB30F252D00D50050932D;
+			productRefGroup = 3DCDB319252D00D50050932D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCDB317252D00D50050932D /* FuzzyStringMatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DCDB316252D00D50050932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCDB326252D00D80050932D /* Main.storyboard in Resources */,
+				3DCDB323252D00D80050932D /* Preview Assets.xcassets in Resources */,
+				3DCDB320252D00D80050932D /* Assets.xcassets in Resources */,
+				3D221B7E25548286004CD8D6 /* english3.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DCDB314252D00D50050932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCDB31E252D00D50050932D /* ContentView.swift in Sources */,
+				3DCDB31C252D00D50050932D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DCDB324252D00D80050932D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DCDB325252D00D80050932D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DCDB329252D00D80050932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DCDB32A252D00D80050932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3DCDB32C252D00D80050932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FuzzyStringMatcher/FuzzyStringMatcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"FuzzyStringMatcher/Preview Content\"";
+				DEVELOPMENT_TEAM = 9527LC56YN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FuzzyStringMatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softgility.FuzzyStringMatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3DCDB32D252D00D80050932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FuzzyStringMatcher/FuzzyStringMatcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"FuzzyStringMatcher/Preview Content\"";
+				DEVELOPMENT_TEAM = 9527LC56YN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FuzzyStringMatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.softgility.FuzzyStringMatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DCDB313252D00D50050932D /* Build configuration list for PBXProject "FuzzyStringMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCDB329252D00D80050932D /* Debug */,
+				3DCDB32A252D00D80050932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DCDB32B252D00D80050932D /* Build configuration list for PBXNativeTarget "FuzzyStringMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCDB32C252D00D80050932D /* Debug */,
+				3DCDB32D252D00D80050932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DCDB310252D00D50050932D /* Project object */;
+}
